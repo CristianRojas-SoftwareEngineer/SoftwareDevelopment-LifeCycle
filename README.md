@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>Gestión del desarrollo de sistemas de software de gran tamaño</h1>
+    <h2>Gestión del desarrollo de sistemas de software de gran tamaño</h2>
 </div>
 
 Este repositorio tiene como propósito contribuir a la preservación histórica y al análisis crítico de un artículo fundamental para la ingeniería de software: «Managing the Development of Large Software Systems», presentado por el Dr. Winston W. Royce en la IEEE WESCON en 1970. En él se establecen las bases del proceso de desarrollo de software, el cual, con el tiempo, ha sido interpretado —y en muchos casos simplificado— como el modelo «Waterfall».

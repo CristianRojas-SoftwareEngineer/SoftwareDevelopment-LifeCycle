@@ -1,26 +1,26 @@
-Este repositorio tiene como propósito contribuir a la preservación histórica y el análisis crítico de un artículo fundamental para la ingeniería de software: «Managing the development of large software systems», presentado por el Dr. Winston W. Royce en la IEEE WESCON en 1970. En él se establecen las bases del proceso de desarrollo de software, proceso que con el tiempo ha sido interpretado –y en muchos casos simplificado– como el modelo «Waterfall».
+Este repositorio tiene como propósito contribuir a la preservación histórica y al análisis crítico de un artículo fundamental para la ingeniería de software: «Managing the Development of Large Software Systems», presentado por el Dr. Winston W. Royce en la IEEE WESCON en 1970. En él se establecen las bases del proceso de desarrollo de software, el cual, con el tiempo, ha sido interpretado —y en muchos casos simplificado— como el modelo «Waterfall».
 
 ---
 
-## 1. Propósito del Proyecto
+## 1. Propósito del proyecto
 
 El objetivo principal de este proyecto es doble:
 
-- **Preservación Histórica:** Publicar y conservar tres versiones del artículo:
+- **Preservación histórica:** Publicar y conservar tres versiones del artículo:
   - La versión original (1970)
   - La versión digitalizada en inglés
   - La versión digitalizada traducida (inicialmente al español, con posibilidad de futuras traducciones)
 
-- **Análisis Crítico y Reivindicación del Legado del Dr. Royce:**
+- **Análisis crítico y reivindicación del legado del Dr. Royce:**
   - Presentar el análisis que realizó el Dr. Royce sobre el proceso de desarrollo de software secuencial, resaltando sus propuestas de mejora para mitigar los riesgos asociados a un proceso estrictamente lineal.
   - Corregir la interpretación errónea que llevó a popularizar el modelo «Waterfall», el cual ignoró los matices y las recomendaciones del Dr. Royce en cuanto a la iteración, el prototipado temprano y la consideración de limitaciones técnicas.
   - Discutir cómo las propuestas innovadoras del Dr. Royce anticiparon elementos que hoy se encuentran en las metodologías ágiles.
 
 ---
 
-## 2. Introducción Histórica y Contexto
+## 2. Introducción histórica y contexto
 
-## 2.1. El Origen del Artículo
+## 2.1. El origen del artículo
 
 En agosto de 1970, durante la IEEE WESCON, el Dr. Royce presentó un artículo revolucionario basado en su experiencia en el desarrollo de software para misiones espaciales, donde la precisión y la confiabilidad eran esenciales. En su trabajo se abordaban:
 
@@ -28,7 +28,7 @@ En agosto de 1970, durante la IEEE WESCON, el Dr. Royce presentó un artículo r
 - El análisis posterior al vuelo
 - La gestión de sistemas complejos con recursos y restricciones severos (como «almacenamiento», «tiempo» y «procesamiento»)
 
-## 2.2. Propósito Original del Artículo
+## 2.2. Propósito original del artículo
 
 El Dr. Royce no pretendía establecer un modelo definitivo de desarrollo de software; más bien, su intención era:
 
@@ -50,17 +50,17 @@ El artículo original expone un modelo simplificado basado en dos pasos esencial
 
 <ul>
   
-## 3.2.1. Análisis (Analysis)
+## 3.1.1. Análisis (Analysis)
   - Comprensión de los requerimientos del sistema
   - Estudio de restricciones y limitaciones
 
-## 3.2.1. Codificación (Coding)
+## 3.1.2. Codificación (Coding)
   - Traducción de los requerimientos a código
   - Implementación de la funcionalidad
 
 </ul>
 
-> *Si bien este enfoque puede funcionar para proyectos pequeños, el Dr. Royce advirtió que para sistemas de gran envergadura resulta “condenado al fracaso” por la falta de flexibilidad y retroalimentación temprana.*
+> *Si bien este enfoque puede funcionar para proyectos pequeños, el Dr. Royce advirtió que, para sistemas de gran envergadura, resulta “condenado al fracaso” por la falta de flexibilidad y retroalimentación temprana.*
 
 ## 3.2. Proceso de desarrollo extendido
 
@@ -77,7 +77,7 @@ A continuación se describen brevemente las fases del proceso de desarrollo secu
 **Propósito:**  
 Establecer el alcance global del proyecto y los objetivos generales del sistema que se pretende construir.
 
-**Actividades Clave:**  
+**Actividades clave:**  
 - Identificación de las necesidades del cliente y las metas principales que el sistema debe cumplir.  
 - Delimitación de los requisitos de alto nivel, incluyendo aspectos operativos y funcionales.  
 
@@ -86,7 +86,7 @@ Establecer el alcance global del proyecto y los objetivos generales del sistema 
 **Propósito:**  
 Traducir los requerimientos globales del sistema en especificaciones más detalladas y técnicas para el software.
 
-**Actividades Clave:**  
+**Actividades clave:**  
 - Definición de las funcionalidades específicas que debe proporcionar el software.  
 - Detalle de restricciones técnicas y operativas, incluyendo desempeño, compatibilidad, seguridad, etc.  
 
@@ -95,7 +95,7 @@ Traducir los requerimientos globales del sistema en especificaciones más detall
 **Propósito:**  
 Comprender en profundidad el dominio del problema y estudiar en detalle cómo abordar las necesidades definidas en los requerimientos de software.
 
-**Actividades Clave:**  
+**Actividades clave:**  
 - Identificación de estructuras de datos, flujos de información y lógicas de procesamiento.  
 - Evaluación de posibles soluciones, considerando las restricciones identificadas en las fases anteriores.  
 
@@ -104,7 +104,7 @@ Comprender en profundidad el dominio del problema y estudiar en detalle cómo ab
 **Propósito:**  
 Definir la arquitectura del sistema, sus componentes internos y las interacciones entre ellos, antes de la implementación.
 
-**Actividades Clave:**  
+**Actividades clave:**  
 - Estructuración de módulos y subsistemas, asignación de responsabilidades.  
 - Diseño de interfaces, bases de datos y procedimientos de entrada/salida.  
 - Planificación de recursos (almacenamiento, tiempo de ejecución, entre otros).  
@@ -114,7 +114,7 @@ Definir la arquitectura del sistema, sus componentes internos y las interaccione
 **Propósito:**  
 Implementar en software la solución diseñada, convirtiendo los requerimientos y diseños en un producto funcional.
 
-**Actividades Clave:**  
+**Actividades clave:**  
 - Escritura y compilación de código siguiendo estándares de calidad.  
 - Integración de módulos y subsistemas.  
 - Revisión de código para asegurar consistencia y conformidad con el diseño.  
@@ -124,7 +124,7 @@ Implementar en software la solución diseñada, convirtiendo los requerimientos 
 **Propósito:**  
 Verificar que el software cumpla con los requerimientos y que funcione correctamente en las condiciones previstas.
 
-**Actividades Clave:**  
+**Actividades clave:**  
 - Ejecución de pruebas unitarias, de integración y de sistema.  
 - Validación de cada ruta lógica para detectar errores o inconsistencias.  
 - Análisis de desempeño y conformidad con las especificaciones iniciales.  
@@ -134,7 +134,7 @@ Verificar que el software cumpla con los requerimientos y que funcione correctam
 **Propósito:**  
 Desplegar el sistema en el entorno de producción y asegurar su funcionamiento continuo.
 
-**Actividades Clave:**  
+**Actividades clave:**  
 - Puesta en marcha del software en la infraestructura del cliente.  
 - Capacitación a los usuarios finales y equipos de soporte.  
 - Monitoreo, mantenimiento y gestión de cambios posteriores a la entrega.  
@@ -149,35 +149,35 @@ Para evitar los problemas inherentes a un proceso estrictamente lineal (donde er
 
 <ul>
 
-**3.3.1. Diseño del Programa es lo Primero:**
+## 3.3.1. Diseño del programa es lo primero:
 Se propone iniciar el proceso con un diseño preliminar que se realice en el vacío de requisitos completos. Aunque este diseño pueda ser impreciso, sirve para identificar limitaciones técnicas (como las de almacenamiento, tiempo o procesamiento) de manera temprana, evitando que se incurra en errores costosos más adelante.
 
 <p align="center">
   <img src="https://res.cloudinary.com/dqdvzzemd/image/upload/v1743022913/427218390-466153c0-d29f-46e9-9cad-7b0b4dd37e1d_npd3sq.png">
 </p>
 
-**3.3.2. Documentar el Diseño:**
+## 3.3.2. Documentar el diseño:
 Es fundamental elaborar una documentación exhaustiva que recoja todas las decisiones de diseño. Esto obliga a los equipos a comprometerse con una versión concreta del diseño y facilita la comunicación entre los distintos actores (diseñadores, analistas, clientes y gestores).
 
 <p align="center">
   <img src="https://res.cloudinary.com/dqdvzzemd/image/upload/v1743022944/427218969-dbe7ea42-7541-4fac-a8c1-77021dc6e85a_uubozg.png">
 </p>
 
-**3.3.3. Hazlo Dos Veces (Realizar una Simulación o Prototipado Piloto):**
+## 3.3.3. Hazlo dos veces (realizar una simulación o prototipado piloto):
 Royce recomienda ejecutar una versión preliminar o simulación del proceso de desarrollo. Este “ensayo” ayuda a detectar fallos críticos en un entorno controlado, permitiendo ajustar el diseño y los procesos antes de la implementación final.
 
 <p align="center">
   <img src="https://res.cloudinary.com/dqdvzzemd/image/upload/v1743022963/427219348-26a55ea0-be1b-44a2-973d-20d33fee7f94_mrfocw.png">
 </p>
 
-**3.3.4. Planificar, Controlar y Supervisar las Pruebas:**
+## 3.3.4. Planificar, controlar y supervisar las pruebas:
 La fase de pruebas es la que más recursos consume y, en un proceso secuencial tradicional, es el primer punto donde se detectan errores significativos. Por ello, se debe gestionar rigurosamente esta etapa, asegurando que se verifiquen todas las rutas lógicas y se validen los aspectos operativos del sistema.
 
 <p align="center">
   <img src="https://res.cloudinary.com/dqdvzzemd/image/upload/v1743022979/427219588-163b7166-1611-4baa-a1e9-4ebee9eef728_bflepo.png">
 </p>
 
-**3.3.5. Involucrar al Cliente:**
+## 3.3.5. Involucrar al cliente:
 Se debe establecer un compromiso formal y continuo con el cliente en múltiples etapas del desarrollo. Esto permite obtener retroalimentación temprana y ajustar los requerimientos conforme avanza el proyecto, evitando discrepancias costosas en fases avanzadas.
 
 <p align="center">
@@ -190,9 +190,9 @@ Estas propuestas buscan transformar un proceso de desarrollo arriesgado en uno q
 
 ---
 
-## 4. Análisis Crítico y Reivindicación del Legado del Dr. Royce
+## 4. Análisis crítico y reivindicación del legado del Dr. Royce
 
-## 4.1. Interpretación Errónea del Modelo «Waterfall»
+## 4.1. Interpretación errónea del modelo «Waterfall»
 
 Aunque el análisis original del Dr. Royce contempla iteraciones y prototipado, con el tiempo se interpretó y simplificó su propuesta en un modelo secuencial rígido (el denominado «Waterfall»). Este malentendido ignoró:
 
@@ -200,7 +200,7 @@ Aunque el análisis original del Dr. Royce contempla iteraciones y prototipado, 
 - La necesidad de ajustar continuamente los requerimientos y el diseño.
 - Las recomendaciones del Dr. Royce para mitigar los riesgos inherentes a un proceso lineal.
 
-## 4.2. Comparativa de Enfoques
+## 4.2. Comparativa de enfoques
 
 Existen dos visiones respecto al orden de las fases:
 
@@ -208,15 +208,15 @@ Existen dos visiones respecto al orden de las fases:
   - Iniciar con un prototipado temprano «en el vacío relativo de requisitos iniciales».
   - Permitir que el diseñador establezca restricciones operativas («almacenamiento», «tiempo», «procesamiento») que luego guíen el análisis.
 
-- **Enfoque Alternativo (Actual):**
+- **Enfoque alternativo (actual):**
   - Realizar un análisis completo de requerimientos antes de proceder con el prototipado.
   - Posteriormente, utilizar el prototipo para validar y ajustar los requerimientos ya definidos.
 
-> *Si bien en 1970 las limitaciones técnicas justificaban el enfoque de Royce, en 2025, con recursos computacionales prácticamente ilimitados, resulta factible y, en teoría, más eficiente comenzar con un análisis detallado que minimice la incertidumbre inicial. No obstante, la necesidad de iterar y validar mediante prototipos continúa siendo relevante, por lo que la integración de ambos enfoques –un análisis exhaustivo seguido de un prototipado iterativo– puede representar la mejor práctica actual.*
+> *Si bien en 1970 las limitaciones técnicas justificaban el enfoque de Royce, en 2025, con recursos computacionales prácticamente ilimitados, resulta factible y, en teoría, más eficiente comenzar con un análisis detallado que minimice la incertidumbre inicial. No obstante, la necesidad de iterar y validar mediante prototipos continúa siendo relevante, por lo que la integración de ambos enfoques —un análisis exhaustivo seguido de un prototipado iterativo— puede representar la mejor práctica actual.*
 
 ---
 
-## 5. Análisis y Visión Actualizada (2025)
+## 5. Análisis y visión actualizada (2025)
 
 En el contexto actual, los avances en ingeniería de software y el surgimiento de metodologías ágiles permiten:
 
@@ -233,15 +233,15 @@ En el contexto actual, los avances en ingeniería de software y el surgimiento d
 
 ---
 
-## 6. Documentos Incluidos en el Repositorio
+## 6. Documentos incluidos en el repositorio
 
 Este repositorio contiene tres versiones del artículo:
 
-- **Versión Original (1970):**  
+- **Versión original (1970):**  
   El documento escaneado tal como fue presentado en la IEEE WESCON.
-- **Versión Digitalizada (Inglés):**  
-  Una versión digital que preserva el formato y contenido original.
-- **Versión Digitalizada Traducida (Español):**  
+- **Versión digitalizada (inglés):**  
+  Una versión digital que preserva el formato y el contenido original.
+- **Versión digitalizada traducida (español):**  
   Una traducción inicial al español, con posibilidad de futuras traducciones a otros idiomas.
 
 ---

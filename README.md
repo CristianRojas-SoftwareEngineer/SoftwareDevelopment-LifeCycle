@@ -54,20 +54,101 @@ El artículo original expone un modelo simplificado basado en dos pasos esencial
 
 > *Si bien este enfoque puede funcionar para proyectos pequeños, el Dr. Royce advirtió que para sistemas de gran envergadura resulta “condenado al fracaso” por la falta de flexibilidad y retroalimentación temprana.*
 
-### 3.2. Modelo Expandido y Propuestas de Mejora
+### 3.2. Proceso de desarrollo extendido
 
-El Dr. Royce propone ampliar el proceso con etapas adicionales, tales como:
+A continuación se describen brevemente las fases del proceso de desarrollo secuencial tal como las presentó el Dr. Winston W. Royce en su artículo *Managing the Development of Large Software Systems* (1970). Cada fase se concibe como un paso lógico que prepara el terreno para la siguiente, aunque Royce advierte que un flujo estrictamente lineal puede conllevar riesgos significativos si no se introducen mecanismos de retroalimentación y control.
 
-- **Requisitos del Sistema y de Software**
-- **Análisis Preliminar**
-- **Diseño del Programa**
-- **Prototipado Temprano:**
-  - Iniciar el diseño sin contar con un análisis completo, para identificar rápidamente limitaciones técnicas y operativas.
-- **Documentación Exhaustiva:**
-  - Registrar todas las decisiones de diseño, facilitando la comunicación entre equipos y el ajuste de requerimientos.
-- **Pruebas y Operaciones**
+#### 1. System Requirements (Requerimientos del Sistema)
 
-> *Esta estructura no solo permitía validar aspectos críticos de hardware y software en su época, sino también abrir la puerta a iteraciones tempranas que redujeran el riesgo de errores costosos en etapas avanzadas.*
+**Propósito:**  
+Establecer el alcance global del proyecto y los objetivos generales del sistema que se pretende construir.
+
+**Actividades Clave:**  
+- Identificación de las necesidades del cliente y las metas principales que el sistema debe cumplir.  
+- Delimitación de los requisitos de alto nivel, incluyendo aspectos operativos y funcionales.  
+
+#### 2. Software Requirements (Requerimientos de Software)
+
+**Propósito:**  
+Traducir los requerimientos globales del sistema en especificaciones más detalladas y técnicas para el software.
+
+**Actividades Clave:**  
+- Definición de las funcionalidades específicas que debe proporcionar el software.  
+- Detalle de restricciones técnicas y operativas, incluyendo desempeño, compatibilidad, seguridad, etc.  
+
+#### 3. Analysis (Análisis)
+
+**Propósito:**  
+Comprender en profundidad el dominio del problema y estudiar en detalle cómo abordar las necesidades definidas en los requerimientos de software.
+
+**Actividades Clave:**  
+- Identificación de estructuras de datos, flujos de información y lógicas de procesamiento.  
+- Evaluación de posibles soluciones, considerando las restricciones identificadas en las fases anteriores.  
+
+#### 4. Program Design (Diseño del Programa)
+
+**Propósito:**  
+Definir la arquitectura del sistema, sus componentes internos y las interacciones entre ellos, antes de la implementación.
+
+**Actividades Clave:**  
+- Estructuración de módulos y subsistemas, asignación de responsabilidades.  
+- Diseño de interfaces, bases de datos y procedimientos de entrada/salida.  
+- Planificación de recursos (almacenamiento, tiempo de ejecución, entre otros).  
+
+#### 5. Coding (Codificación)
+
+**Propósito:**  
+Implementar en software la solución diseñada, convirtiendo los requerimientos y diseños en un producto funcional.
+
+**Actividades Clave:**  
+- Escritura y compilación de código siguiendo estándares de calidad.  
+- Integración de módulos y subsistemas.  
+- Revisión de código para asegurar consistencia y conformidad con el diseño.  
+
+#### 6. Testing (Pruebas)
+
+**Propósito:**  
+Verificar que el software cumpla con los requerimientos y que funcione correctamente en las condiciones previstas.
+
+**Actividades Clave:**  
+- Ejecución de pruebas unitarias, de integración y de sistema.  
+- Validación de cada ruta lógica para detectar errores o inconsistencias.  
+- Análisis de desempeño y conformidad con las especificaciones iniciales.  
+
+#### 7. Operations (Operaciones)
+
+**Propósito:**  
+Desplegar el sistema en el entorno de producción y asegurar su funcionamiento continuo.
+
+**Actividades Clave:**  
+- Puesta en marcha del software en la infraestructura del cliente.  
+- Capacitación a los usuarios finales y equipos de soporte.  
+- Monitoreo, mantenimiento y gestión de cambios posteriores a la entrega.  
+
+---
+
+Estas fases se presentan de manera secuencial, pero el Dr. Royce enfatiza que, en la práctica, la retroalimentación y la iteración entre pasos son esenciales para reducir el riesgo de detectar errores o requerimientos cambiantes demasiado tarde. Por ello, él mismo propone una serie de mejoras —como la documentación exhaustiva, el prototipado temprano y la involucración del cliente— para complementar este flujo y hacerlo más adaptable y seguro.
+
+### 3.3. Propuestas del Dr. Royce para mitigar los riesgos del proceso de desarrollo secuencial
+
+Para evitar los problemas inherentes a un proceso estrictamente lineal (donde errores o cambios se detectan muy tarde), Royce sugiere cinco estrategias o "pasos" que se deben incorporar al proceso de desarrollo:
+
+1. Diseño del Programa es lo Primero:
+Se propone iniciar el proceso con un diseño preliminar que se realice en el vacío de requisitos completos. Aunque este diseño pueda ser impreciso, sirve para identificar limitaciones técnicas (como las de almacenamiento, tiempo o procesamiento) de manera temprana, evitando que se incurra en errores costosos más adelante.
+
+2. Documentar el Diseño:
+Es fundamental elaborar una documentación exhaustiva que recoja todas las decisiones de diseño. Esto obliga a los equipos a comprometerse con una versión concreta del diseño y facilita la comunicación entre los distintos actores (diseñadores, analistas, clientes y gestores).
+
+3. Hazlo Dos Veces (Realizar una Simulación o Prototipado Piloto):
+Royce recomienda ejecutar una versión preliminar o simulación del proceso de desarrollo. Este “ensayo” ayuda a detectar fallos críticos en un entorno controlado, permitiendo ajustar el diseño y los procesos antes de la implementación final.
+
+4. Planificar, Controlar y Supervisar las Pruebas:
+La fase de pruebas es la que más recursos consume y, en un proceso secuencial tradicional, es el primer punto donde se detectan errores significativos. Por ello, se debe gestionar rigurosamente esta etapa, asegurando que se verifiquen todas las rutas lógicas y se validen los aspectos operativos del sistema.
+
+5. Involucrar al Cliente:
+Se debe establecer un compromiso formal y continuo con el cliente en múltiples etapas del desarrollo. Esto permite obtener retroalimentación temprana y ajustar los requerimientos conforme avanza el proyecto, evitando discrepancias costosas en fases avanzadas.
+
+Estas propuestas buscan transformar un proceso de desarrollo arriesgado en uno que permita identificar, documentar y corregir errores de forma temprana, integrando iteraciones y validaciones que hoy son pilares de las metodologías ágiles.
 
 ---
 

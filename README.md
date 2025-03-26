@@ -20,7 +20,7 @@ El objetivo principal de este proyecto es doble:
 
 ## 2. Introducción Histórica y Contexto
 
-### 2.1. El Origen del Artículo
+## 2.1. El Origen del Artículo
 
 En agosto de 1970, durante la IEEE WESCON, el Dr. Royce presentó un artículo revolucionario basado en su experiencia en el desarrollo de software para misiones espaciales, donde la precisión y la confiabilidad eran esenciales. En su trabajo se abordaban:
 
@@ -28,7 +28,7 @@ En agosto de 1970, durante la IEEE WESCON, el Dr. Royce presentó un artículo r
 - El análisis posterior al vuelo
 - La gestión de sistemas complejos con recursos y restricciones severos (como «almacenamiento», «tiempo» y «procesamiento»)
 
-### 2.2. Propósito Original del Artículo
+## 2.2. Propósito Original del Artículo
 
 El Dr. Royce no pretendía establecer un modelo definitivo de desarrollo de software; más bien, su intención era:
 
@@ -38,27 +38,33 @@ El Dr. Royce no pretendía establecer un modelo definitivo de desarrollo de soft
 
 ---
 
-## 3. Proceso de Desarrollo de Software Analizado
+## 3. Proceso de desarrollo de software presentado por el Dr. Royce
 
-### 3.1. Modelo Secuencial Inicial
+## 3.1. Proceso de desarrollo simplificado
 
 El artículo original expone un modelo simplificado basado en dos pasos esenciales:
 
-- **Análisis:**
+<ul>
+  
+## 3.2.1. Análisis (Analysis)
   - Comprensión de los requerimientos del sistema
   - Estudio de restricciones y limitaciones
 
-- **Codificación:**
+## 3.2.1. Codificación (Coding)
   - Traducción de los requerimientos a código
   - Implementación de la funcionalidad
 
+</ul>
+
 > *Si bien este enfoque puede funcionar para proyectos pequeños, el Dr. Royce advirtió que para sistemas de gran envergadura resulta “condenado al fracaso” por la falta de flexibilidad y retroalimentación temprana.*
 
-### 3.2. Proceso de desarrollo extendido
+## 3.2. Proceso de desarrollo extendido
 
 A continuación se describen brevemente las fases del proceso de desarrollo secuencial tal como las presentó el Dr. Winston W. Royce en su artículo *Managing the Development of Large Software Systems* (1970). Cada fase se concibe como un paso lógico que prepara el terreno para la siguiente, aunque Royce advierte que un flujo estrictamente lineal puede conllevar riesgos significativos si no se introducen mecanismos de retroalimentación y control.
 
-#### 1. System Requirements (Requerimientos del Sistema)
+<ul>
+
+## 3.2.1. Requerimientos del Sistema (System Requirements)
 
 **Propósito:**  
 Establecer el alcance global del proyecto y los objetivos generales del sistema que se pretende construir.
@@ -67,7 +73,7 @@ Establecer el alcance global del proyecto y los objetivos generales del sistema 
 - Identificación de las necesidades del cliente y las metas principales que el sistema debe cumplir.  
 - Delimitación de los requisitos de alto nivel, incluyendo aspectos operativos y funcionales.  
 
-#### 2. Software Requirements (Requerimientos de Software)
+## 3.2.2. Requerimientos de Software (Software Requirements)
 
 **Propósito:**  
 Traducir los requerimientos globales del sistema en especificaciones más detalladas y técnicas para el software.
@@ -76,7 +82,7 @@ Traducir los requerimientos globales del sistema en especificaciones más detall
 - Definición de las funcionalidades específicas que debe proporcionar el software.  
 - Detalle de restricciones técnicas y operativas, incluyendo desempeño, compatibilidad, seguridad, etc.  
 
-#### 3. Analysis (Análisis)
+## 3.2.3. Análisis (Analysis)
 
 **Propósito:**  
 Comprender en profundidad el dominio del problema y estudiar en detalle cómo abordar las necesidades definidas en los requerimientos de software.
@@ -85,7 +91,7 @@ Comprender en profundidad el dominio del problema y estudiar en detalle cómo ab
 - Identificación de estructuras de datos, flujos de información y lógicas de procesamiento.  
 - Evaluación de posibles soluciones, considerando las restricciones identificadas en las fases anteriores.  
 
-#### 4. Program Design (Diseño del Programa)
+## 3.2.4. Diseño del Programa (Program Design)
 
 **Propósito:**  
 Definir la arquitectura del sistema, sus componentes internos y las interacciones entre ellos, antes de la implementación.
@@ -95,7 +101,7 @@ Definir la arquitectura del sistema, sus componentes internos y las interaccione
 - Diseño de interfaces, bases de datos y procedimientos de entrada/salida.  
 - Planificación de recursos (almacenamiento, tiempo de ejecución, entre otros).  
 
-#### 5. Coding (Codificación)
+## 3.2.5. Codificación (Coding)
 
 **Propósito:**  
 Implementar en software la solución diseñada, convirtiendo los requerimientos y diseños en un producto funcional.
@@ -105,7 +111,7 @@ Implementar en software la solución diseñada, convirtiendo los requerimientos 
 - Integración de módulos y subsistemas.  
 - Revisión de código para asegurar consistencia y conformidad con el diseño.  
 
-#### 6. Testing (Pruebas)
+## 3.2.6. Pruebas (Testing)
 
 **Propósito:**  
 Verificar que el software cumpla con los requerimientos y que funcione correctamente en las condiciones previstas.
@@ -115,7 +121,7 @@ Verificar que el software cumpla con los requerimientos y que funcione correctam
 - Validación de cada ruta lógica para detectar errores o inconsistencias.  
 - Análisis de desempeño y conformidad con las especificaciones iniciales.  
 
-#### 7. Operations (Operaciones)
+## 3.2.7. Operaciones (Operations)
 
 **Propósito:**  
 Desplegar el sistema en el entorno de producción y asegurar su funcionamiento continuo.
@@ -125,11 +131,11 @@ Desplegar el sistema en el entorno de producción y asegurar su funcionamiento c
 - Capacitación a los usuarios finales y equipos de soporte.  
 - Monitoreo, mantenimiento y gestión de cambios posteriores a la entrega.  
 
----
+</ul>
 
 Estas fases se presentan de manera secuencial, pero el Dr. Royce enfatiza que, en la práctica, la retroalimentación y la iteración entre pasos son esenciales para reducir el riesgo de detectar errores o requerimientos cambiantes demasiado tarde. Por ello, él mismo propone una serie de mejoras —como la documentación exhaustiva, el prototipado temprano y la involucración del cliente— para complementar este flujo y hacerlo más adaptable y seguro.
 
-### 3.3. Propuestas del Dr. Royce para mitigar los riesgos del proceso de desarrollo secuencial
+## 3.3. Propuestas del Dr. Royce para mitigar los riesgos del proceso de desarrollo secuencial
 
 Para evitar los problemas inherentes a un proceso estrictamente lineal (donde errores o cambios se detectan muy tarde), Royce sugiere cinco estrategias o "pasos" que se deben incorporar al proceso de desarrollo:
 
@@ -154,7 +160,7 @@ Estas propuestas buscan transformar un proceso de desarrollo arriesgado en uno q
 
 ## 4. Análisis Crítico y Reivindicación del Legado del Dr. Royce
 
-### 4.1. Interpretación Errónea del Modelo «Waterfall»
+## 4.1. Interpretación Errónea del Modelo «Waterfall»
 
 Aunque el análisis original del Dr. Royce contempla iteraciones y prototipado, con el tiempo se interpretó y simplificó su propuesta en un modelo secuencial rígido (el denominado «Waterfall»). Este malentendido ignoró:
 
@@ -162,7 +168,7 @@ Aunque el análisis original del Dr. Royce contempla iteraciones y prototipado, 
 - La necesidad de ajustar continuamente los requerimientos y el diseño.
 - Las recomendaciones del Dr. Royce para mitigar los riesgos inherentes a un proceso lineal.
 
-### 4.2. Comparativa de Enfoques
+## 4.2. Comparativa de Enfoques
 
 Existen dos visiones respecto al orden de las fases:
 

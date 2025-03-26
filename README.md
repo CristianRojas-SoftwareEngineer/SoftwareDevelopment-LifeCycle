@@ -143,7 +143,7 @@ Desplegar el sistema en el entorno de producción y asegurar su funcionamiento c
 
 Estas fases se presentan de manera secuencial, pero el Dr. Royce enfatiza que, en la práctica, la retroalimentación y la iteración entre pasos son esenciales para reducir el riesgo de detectar errores o requerimientos cambiantes demasiado tarde. Por ello, él mismo propone una serie de mejoras —como la documentación exhaustiva, el prototipado temprano y la involucración del cliente— para complementar este flujo y hacerlo más adaptable y seguro.
 
-## 3.3. Propuestas del Dr. Royce para mitigar los riesgos del proceso de desarrollo secuencial
+## 3.3. Propuestas para mitigar los riesgos del proceso de desarrollo secuencial
 
 Para evitar los problemas inherentes a un proceso estrictamente lineal (donde errores o cambios se detectan muy tarde), Royce sugiere cinco estrategias o "pasos" que se deben incorporar al proceso de desarrollo:
 

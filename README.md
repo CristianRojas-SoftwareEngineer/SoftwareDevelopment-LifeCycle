@@ -149,35 +149,35 @@ Para evitar los problemas inherentes a un proceso estrictamente lineal (donde er
 
 <ul>
 
-1. Diseño del Programa es lo Primero:
+**3.3.1. Diseño del Programa es lo Primero:**
 Se propone iniciar el proceso con un diseño preliminar que se realice en el vacío de requisitos completos. Aunque este diseño pueda ser impreciso, sirve para identificar limitaciones técnicas (como las de almacenamiento, tiempo o procesamiento) de manera temprana, evitando que se incurra en errores costosos más adelante.
 
 <p align="center">
   <img src="https://res.cloudinary.com/dqdvzzemd/image/upload/v1743022913/427218390-466153c0-d29f-46e9-9cad-7b0b4dd37e1d_npd3sq.png">
 </p>
 
-2. Documentar el Diseño:
+**3.3.2. Documentar el Diseño:**
 Es fundamental elaborar una documentación exhaustiva que recoja todas las decisiones de diseño. Esto obliga a los equipos a comprometerse con una versión concreta del diseño y facilita la comunicación entre los distintos actores (diseñadores, analistas, clientes y gestores).
 
 <p align="center">
   <img src="https://res.cloudinary.com/dqdvzzemd/image/upload/v1743022944/427218969-dbe7ea42-7541-4fac-a8c1-77021dc6e85a_uubozg.png">
 </p>
 
-3. Hazlo Dos Veces (Realizar una Simulación o Prototipado Piloto):
+**3.3.3. Hazlo Dos Veces (Realizar una Simulación o Prototipado Piloto):**
 Royce recomienda ejecutar una versión preliminar o simulación del proceso de desarrollo. Este “ensayo” ayuda a detectar fallos críticos en un entorno controlado, permitiendo ajustar el diseño y los procesos antes de la implementación final.
 
 <p align="center">
   <img src="https://res.cloudinary.com/dqdvzzemd/image/upload/v1743022963/427219348-26a55ea0-be1b-44a2-973d-20d33fee7f94_mrfocw.png">
 </p>
 
-4. Planificar, Controlar y Supervisar las Pruebas:
+**3.3.4. Planificar, Controlar y Supervisar las Pruebas:**
 La fase de pruebas es la que más recursos consume y, en un proceso secuencial tradicional, es el primer punto donde se detectan errores significativos. Por ello, se debe gestionar rigurosamente esta etapa, asegurando que se verifiquen todas las rutas lógicas y se validen los aspectos operativos del sistema.
 
 <p align="center">
   <img src="https://res.cloudinary.com/dqdvzzemd/image/upload/v1743022979/427219588-163b7166-1611-4baa-a1e9-4ebee9eef728_bflepo.png">
 </p>
 
-5. Involucrar al Cliente:
+**3.3.5. Involucrar al Cliente:**
 Se debe establecer un compromiso formal y continuo con el cliente en múltiples etapas del desarrollo. Esto permite obtener retroalimentación temprana y ajustar los requerimientos conforme avanza el proyecto, evitando discrepancias costosas en fases avanzadas.
 
 <p align="center">

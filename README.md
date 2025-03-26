@@ -42,6 +42,10 @@ El Dr. Royce no pretendía establecer un modelo definitivo de desarrollo de soft
 
 ## 3.1. Proceso de desarrollo simplificado
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/976bc1e4-b26b-4e3e-8c0f-c7657664065d">
+</p>
+
 El artículo original expone un modelo simplificado basado en dos pasos esenciales:
 
 <ul>
@@ -59,6 +63,10 @@ El artículo original expone un modelo simplificado basado en dos pasos esencial
 > *Si bien este enfoque puede funcionar para proyectos pequeños, el Dr. Royce advirtió que para sistemas de gran envergadura resulta “condenado al fracaso” por la falta de flexibilidad y retroalimentación temprana.*
 
 ## 3.2. Proceso de desarrollo extendido
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b711e803-99ea-4a16-86ff-9ed0010b4642">
+</p>
 
 A continuación se describen brevemente las fases del proceso de desarrollo secuencial tal como las presentó el Dr. Winston W. Royce en su artículo *Managing the Development of Large Software Systems* (1970). Cada fase se concibe como un paso lógico que prepara el terreno para la siguiente, aunque Royce advierte que un flujo estrictamente lineal puede conllevar riesgos significativos si no se introducen mecanismos de retroalimentación y control.
 
@@ -142,17 +150,37 @@ Para evitar los problemas inherentes a un proceso estrictamente lineal (donde er
 1. Diseño del Programa es lo Primero:
 Se propone iniciar el proceso con un diseño preliminar que se realice en el vacío de requisitos completos. Aunque este diseño pueda ser impreciso, sirve para identificar limitaciones técnicas (como las de almacenamiento, tiempo o procesamiento) de manera temprana, evitando que se incurra en errores costosos más adelante.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/466153c0-d29f-46e9-9cad-7b0b4dd37e1d">
+</p>
+
 2. Documentar el Diseño:
 Es fundamental elaborar una documentación exhaustiva que recoja todas las decisiones de diseño. Esto obliga a los equipos a comprometerse con una versión concreta del diseño y facilita la comunicación entre los distintos actores (diseñadores, analistas, clientes y gestores).
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dbe7ea42-7541-4fac-a8c1-77021dc6e85a">
+</p>
 
 3. Hazlo Dos Veces (Realizar una Simulación o Prototipado Piloto):
 Royce recomienda ejecutar una versión preliminar o simulación del proceso de desarrollo. Este “ensayo” ayuda a detectar fallos críticos en un entorno controlado, permitiendo ajustar el diseño y los procesos antes de la implementación final.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/26a55ea0-be1b-44a2-973d-20d33fee7f94">
+</p>
+
 4. Planificar, Controlar y Supervisar las Pruebas:
 La fase de pruebas es la que más recursos consume y, en un proceso secuencial tradicional, es el primer punto donde se detectan errores significativos. Por ello, se debe gestionar rigurosamente esta etapa, asegurando que se verifiquen todas las rutas lógicas y se validen los aspectos operativos del sistema.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/163b7166-1611-4baa-a1e9-4ebee9eef728">
+</p>
+
 5. Involucrar al Cliente:
 Se debe establecer un compromiso formal y continuo con el cliente en múltiples etapas del desarrollo. Esto permite obtener retroalimentación temprana y ajustar los requerimientos conforme avanza el proyecto, evitando discrepancias costosas en fases avanzadas.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4679cbf2-5cb1-4899-8a05-c41e5ee1c368">
+</p>
 
 Estas propuestas buscan transformar un proceso de desarrollo arriesgado en uno que permita identificar, documentar y corregir errores de forma temprana, integrando iteraciones y validaciones que hoy son pilares de las metodologías ágiles.
 

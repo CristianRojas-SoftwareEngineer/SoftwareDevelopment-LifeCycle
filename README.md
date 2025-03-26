@@ -43,7 +43,7 @@ El Dr. Royce no pretendía establecer un modelo definitivo de desarrollo de soft
 ## 3.1. Proceso de desarrollo simplificado
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/976bc1e4-b26b-4e3e-8c0f-c7657664065d">
+  <img src="https://github.com/user-attachments/assets/976bc1e4-b26b-4e3e-8c0f-c7657664065d" height="250px">
 </p>
 
 El artículo original expone un modelo simplificado basado en dos pasos esenciales:

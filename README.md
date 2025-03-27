@@ -68,13 +68,29 @@ El artículo original expone un modelo simplificado basado en dos pasos esencial
 
 ## 3.2. Proceso de desarrollo extendido
 
-<p align="center">
-  <img src="https://res.cloudinary.com/dqdvzzemd/image/upload/v1743022896/427214798-b711e803-99ea-4a16-86ff-9ed0010b4642_sh7jva.png">
-</p>
-
 A continuación se describen brevemente las fases del proceso de desarrollo secuencial tal como las presentó el Dr. Winston W. Royce en su artículo *Managing the Development of Large Software Systems* (1970). Cada fase se concibe como un paso lógico que prepara el terreno para la siguiente, aunque Royce advierte que un flujo estrictamente lineal puede conllevar riesgos significativos si no se introducen mecanismos de retroalimentación y control.
 
 <ul>
+
+| Fase | Nombre | Propósito | Objetivos |
+|------|--------|-----------|-------------|
+| **1** | **Requerimientos del Sistema** | Establecer una comprensión clara y completa de las necesidades del sistema, incluyendo hardware, software y restricciones, para guiar el desarrollo en las fases posteriores. | Identificar y documentar los objetivos del sistema, las necesidades del usuario, las restricciones de alto nivel (como presupuesto, tiempo y tecnología), y los requisitos de hardware y software, sentando las bases para un desarrollo estructurado. |
+| **2** | **Requerimientos de Software** | Definir con precisión los requisitos funcionales y no funcionales del software, asegurando que se alineen con los requerimientos del sistema y sean viables para la implementación. | Elaborar un documento detallado de requisitos de software (SRS) que incluya especificaciones funcionales, de rendimiento, seguridad y usabilidad; iterar con un diseño preliminar para validar la factibilidad técnica y operativa. |
+| **3** | **Análisis** | Profundizar en los requisitos de software para identificar el alcance del problema, evaluar riesgos y planificar una solución técnica que cumpla con las expectativas del cliente. | Realizar un análisis exhaustivo de los requisitos para identificar inconsistencias, ambigüedades o conflictos; definir restricciones técnicas (como almacenamiento, tiempo de respuesta y capacidad); y establecer un plan inicial para el diseño, priorizando la viabilidad y la eficiencia. |
+| **4** | **Diseño del Programa** | Crear una arquitectura detallada del software que sirva como un plano claro para la implementación, asegurando que el sistema sea modular, escalable y mantenible. | Diseñar la estructura del software, incluyendo módulos, interfaces, bases de datos y flujos de entrada/salida; asignar funciones específicas a cada componente; y documentar un diseño técnico detallado que sirva como guía para la codificación. |
+| **5** | **Codificación** | Convertir el diseño técnico en código ejecutable, implementando el software de manera que cumpla con las especificaciones y mantenga la integridad del diseño planificado. | Escribir código limpio y eficiente siguiendo las especificaciones del diseño; realizar revisiones de código para garantizar adherencia a estándares de programación; y documentar el código para facilitar el mantenimiento futuro. |
+| **6** | **Pruebas** | Validar que el software cumpla con todos los requisitos establecidos y funcione correctamente en todas las condiciones esperadas, identificando y corrigiendo defectos antes de la entrega. | Diseñar y ejecutar planes de prueba que incluyan pruebas unitarias, de integración, de sistema y de aceptación; emplear especialistas para inspeccionar errores; probar todas las rutas lógicas y condiciones de borde; y certificar que el software está listo para su despliegue. |
+| **7** | **Operaciones** | Asegurar que el software opere de manera eficiente en el entorno de producción y se mantenga a lo largo del tiempo para satisfacer las necesidades cambiantes del usuario. | Desplegar el software en el entorno operativo; capacitar al personal de operaciones; monitorear el rendimiento del sistema; realizar mantenimiento correctivo, perfectivo y adaptativo; y documentar actualizaciones para garantizar la continuidad del sistema. |
+<div align="center">
+    <strong>Tabla: Fases del proceso de desarrollo extendido según el Dr. Royce<strong>
+</div>
+</br>
+
+A continuación se presenta el diagrama original presentado en el artículo:
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dqdvzzemd/image/upload/v1743022896/427214798-b711e803-99ea-4a16-86ff-9ed0010b4642_sh7jva.png">
+</p>
 
 ## 3.2.1. Requerimientos del Sistema (System Requirements)
 

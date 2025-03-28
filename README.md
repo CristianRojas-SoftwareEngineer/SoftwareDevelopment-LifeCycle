@@ -2,12 +2,11 @@
     <h2>«Gestión del desarrollo de sistemas de software de gran tamaño»</h2>
 </div>
 
-Este repositorio tiene como propósito contribuir a la preservación histórica y al análisis crítico de un artículo fundamental para la ingeniería de software. El nombre del artículo es «Managing the Development of Large Software Systems», y fue presentado por el Dr. Winston Walker Royce (1929 – 1995) en la IEEE WESCON en 1970. En él se establecen las bases de uno de los primeros modelos del proceso de desarrollo de software, el cual, posteriormente sería interpretado —parcialmente— como el modelo de proceso en cascada o «Waterfall».
-
 ---
 
 ## 1. Propósito del proyecto
 
+Este repositorio tiene como propósito contribuir a la preservación histórica  un artículo fundamental para la ingeniería de software. El nombre del artículo es «Managing the Development of Large Software Systems», y fue presentado por el Dr. Winston Walker Royce (1929 – 1995) en la IEEE WESCON en 1970. En él se establecen las bases de uno de los primeros modelos del proceso de desarrollo de software, el cual, posteriormente sería interpretado —parcialmente— como el modelo de proceso en cascada o «Waterfall».
 El objetivo principal de este proyecto es doble:
 
 - **Preservación histórica:** Publicar y conservar tres versiones del artículo:

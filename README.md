@@ -70,8 +70,6 @@ El artículo original expone un modelo simplificado basado en dos pasos esencial
 
 A continuación se describen brevemente las fases del proceso de desarrollo secuencial tal como las presentó el Dr. Winston W. Royce en su artículo *Managing the Development of Large Software Systems* (1970). Cada fase se concibe como un paso lógico que prepara el terreno para la siguiente, aunque Royce advierte que un flujo estrictamente lineal puede conllevar riesgos significativos si no se introducen mecanismos de retroalimentación y control.
 
-<ul>
-
 | Fase | Nombre | Propósito | Objetivos |
 |------|--------|-----------|-------------|
 | **1** | **Requerimientos del Sistema** | Establecer una comprensión de alto nivel de las necesidades generales del proyecto, incluyendo metas, expectativas del cliente y restricciones. | » Identificación de las necesidades del cliente y las metas principales que el sistema debe cumplir.</br>» Delimitación de los requisitos de alto nivel, incluyendo aspectos operativos y funcionales. |
@@ -91,64 +89,6 @@ A continuación se presenta el diagrama original presentado en el artículo:
 <p align="center">
   <img src="https://res.cloudinary.com/dqdvzzemd/image/upload/v1743022896/427214798-b711e803-99ea-4a16-86ff-9ed0010b4642_sh7jva.png">
 </p>
-
-## 3.2.1. Requerimientos del Sistema (System Requirements)
-
-**Propósito:**  
-Establecer el alcance global del proyecto y los objetivos generales del sistema que se pretende construir.
-
-**Actividades clave:**  
-</br>» Identificación de las necesidades del cliente y las metas principales que el sistema debe cumplir.</br>» Delimitación de los requisitos de alto nivel, incluyendo aspectos operativos y funcionales.  
-
-## 3.2.2. Requerimientos de Software (Software Requirements)
-
-**Propósito:**  
-Traducir los requerimientos globales del sistema en especificaciones más detalladas y técnicas para el software.
-
-**Actividades clave:**  
-</br>» Definición de las funcionalidades específicas que debe proporcionar el software.</br>» Detalle de restricciones técnicas y operativas, incluyendo desempeño, compatibilidad, seguridad, etc.  
-
-## 3.2.3. Análisis (Analysis)
-
-**Propósito:**  
-Comprender en profundidad el dominio del problema y estudiar en detalle cómo abordar las necesidades definidas en los requerimientos de software.
-
-**Actividades clave:**  
-</br>» Identificación de estructuras de datos, flujos de información y lógicas de procesamiento.</br>» Evaluación de posibles soluciones, considerando las restricciones identificadas en las fases anteriores.  
-
-## 3.2.4. Diseño del Programa (Program Design)
-
-**Propósito:**  
-Definir la arquitectura del sistema, sus componentes internos y las interacciones entre ellos, antes de la implementación.
-
-**Actividades clave:**  
-</br>» Estructuración de módulos y subsistemas, asignación de responsabilidades.</br>» Diseño de interfaces, bases de datos y procedimientos de entrada/salida.</br>» Planificación de recursos (almacenamiento, tiempo de ejecución, entre otros).  
-
-## 3.2.5. Codificación (Coding)
-
-**Propósito:**  
-Implementar en software la solución diseñada, convirtiendo los requerimientos y diseños en un producto funcional.
-
-**Actividades clave:**  
-</br>» Escritura y compilación de código siguiendo estándares de calidad.</br>» Integración de módulos y subsistemas.</br>» Revisión de código para asegurar consistencia y conformidad con el diseño.  
-
-## 3.2.6. Pruebas (Testing)
-
-**Propósito:**  
-Verificar que el software cumpla con los requerimientos y que funcione correctamente en las condiciones previstas.
-
-**Actividades clave:**  
-</br>» Ejecución de pruebas unitarias, de integración y de sistema.</br>» Validación de cada ruta lógica para detectar errores o inconsistencias.</br>» Análisis de desempeño y conformidad con las especificaciones iniciales.  
-
-## 3.2.7. Operaciones (Operations)
-
-**Propósito:**  
-Desplegar el sistema en el entorno de producción y asegurar su funcionamiento continuo.
-
-**Actividades clave:**  
-</br>» Puesta en marcha del software en la infraestructura del cliente.</br>» Capacitación a los usuarios finales y equipos de soporte.</br>» Monitoreo, mantenimiento y gestión de cambios posteriores a la entrega.  
-
-</ul>
 
 Estas fases se presentan de manera secuencial, pero el Dr. Royce enfatiza que, en la práctica, la retroalimentación y la iteración entre pasos son esenciales para reducir el riesgo de detectar errores o requerimientos cambiantes demasiado tarde. Por ello, él mismo propone una serie de mejoras —como la documentación exhaustiva, el prototipado temprano y la involucración del cliente— para complementar este flujo y hacerlo más adaptable y seguro.
 

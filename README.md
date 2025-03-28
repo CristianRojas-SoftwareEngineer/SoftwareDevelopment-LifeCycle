@@ -74,13 +74,13 @@ A continuación se describen brevemente las fases del proceso de desarrollo secu
 
 | Fase | Nombre | Propósito | Objetivos |
 |------|--------|-----------|-------------|
-| **1** | **Requerimientos del Sistema** | Establecer una comprensión clara y completa de las necesidades del sistema, incluyendo hardware, software y restricciones, para guiar el desarrollo en las fases posteriores. | Identificar y documentar los objetivos del sistema, las necesidades del usuario, las restricciones de alto nivel (como presupuesto, tiempo y tecnología), y los requisitos de hardware y software, sentando las bases para un desarrollo estructurado. |
-| **2** | **Requerimientos de Software** | Definir con precisión los requisitos funcionales y no funcionales del software, asegurando que se alineen con los requerimientos del sistema y sean viables para la implementación. | Elaborar un documento detallado de requisitos de software (SRS) que incluya especificaciones funcionales, de rendimiento, seguridad y usabilidad; iterar con un diseño preliminar para validar la factibilidad técnica y operativa. |
-| **3** | **Análisis** | Profundizar en los requisitos de software para identificar el alcance del problema, evaluar riesgos y planificar una solución técnica que cumpla con las expectativas del cliente. | Realizar un análisis exhaustivo de los requisitos para identificar inconsistencias, ambigüedades o conflictos; definir restricciones técnicas (como almacenamiento, tiempo de respuesta y capacidad); y establecer un plan inicial para el diseño, priorizando la viabilidad y la eficiencia. |
-| **4** | **Diseño del Programa** | Crear una arquitectura detallada del software que sirva como un plano claro para la implementación, asegurando que el sistema sea modular, escalable y mantenible. | Diseñar la estructura del software, incluyendo módulos, interfaces, bases de datos y flujos de entrada/salida; asignar funciones específicas a cada componente; y documentar un diseño técnico detallado que sirva como guía para la codificación. |
-| **5** | **Codificación** | Convertir el diseño técnico en código ejecutable, implementando el software de manera que cumpla con las especificaciones y mantenga la integridad del diseño planificado. | Escribir código limpio y eficiente siguiendo las especificaciones del diseño; realizar revisiones de código para garantizar adherencia a estándares de programación; y documentar el código para facilitar el mantenimiento futuro. |
-| **6** | **Pruebas** | Validar que el software cumpla con todos los requisitos establecidos y funcione correctamente en todas las condiciones esperadas, identificando y corrigiendo defectos antes de la entrega. | Diseñar y ejecutar planes de prueba que incluyan pruebas unitarias, de integración, de sistema y de aceptación; emplear especialistas para inspeccionar errores; probar todas las rutas lógicas y condiciones de borde; y certificar que el software está listo para su despliegue. |
-| **7** | **Operaciones** | Asegurar que el software opere de manera eficiente en el entorno de producción y se mantenga a lo largo del tiempo para satisfacer las necesidades cambiantes del usuario. | Desplegar el software en el entorno operativo; capacitar al personal de operaciones; monitorear el rendimiento del sistema; realizar mantenimiento correctivo, perfectivo y adaptativo; y documentar actualizaciones para garantizar la continuidad del sistema. |
+| **1** | **Requerimientos del Sistema** | Establecer una comprensión de alto nivel de las necesidades generales del proyecto, incluyendo metas, expectativas del cliente y restricciones. | » Identificación de las necesidades del cliente y las metas principales que el sistema debe cumplir.</br>» Delimitación de los requisitos de alto nivel, incluyendo aspectos operativos y funcionales. |
+| **2** | **Requerimientos de Software** | Traducir los requerimientos del sistema en especificaciones detalladas y precisas para el software que se va a desarrollar. | » Definición de las funcionalidades específicas que debe proporcionar el software.</br>» Detalle de restricciones técnicas y operativas, incluyendo desempeño, compatibilidad, seguridad, etc. |
+| **3** | **Análisis** | Estudiar el problema en profundidad y concebir una estrategia técnica general para su resolución mediante software. | » Identificación de estructuras de datos, flujos de información y lógicas de procesamiento.</br>» Evaluación de posibles soluciones, considerando las restricciones identificadas en las fases anteriores. |
+| **4** | **Diseño del Programa** | Crear un diseño detallado de la arquitectura del software, incluyendo componentes, módulos, interfaces y su interacción. | » Estructuración de módulos y subsistemas, asignación de responsabilidades.</br>» Diseño de interfaces, bases de datos y procedimientos de entrada/salida.</br>» Planificación de recursos (almacenamiento, tiempo de ejecución, entre otros). |
+| **5** | **Codificación** | Implementar el diseño del software en código fuente ejecutable en un lenguaje de programación específico. | » Escritura y compilación de código siguiendo estándares de calidad.</br>» Integración de módulos y subsistemas.</br>» Revisión de código para asegurar consistencia y conformidad con el diseño. |
+| **6** | **Pruebas** | Verificar y validar que el software cumple con los requisitos y funciona correctamente en diversas condiciones. | » Ejecución de pruebas unitarias, de integración y de sistema.</br>» Validación de cada ruta lógica para detectar errores o inconsistencias.</br>» Análisis de desempeño y conformidad con las especificaciones iniciales. |
+| **7** | **Operaciones** | Desplegar y mantener el software en el entorno de producción para asegurar su funcionamiento continuo y satisfacer las necesidades del usuario. | » Puesta en marcha del software en la infraestructura del cliente.</br>» Capacitación a los usuarios finales y equipos de soporte.</br>» Monitoreo, mantenimiento y gestión de cambios posteriores a la entrega. |
 <div align="center">
     <strong>Tabla: Fases del proceso de desarrollo extendido según el Dr. Royce<strong>
 </div>
@@ -98,8 +98,7 @@ A continuación se presenta el diagrama original presentado en el artículo:
 Establecer el alcance global del proyecto y los objetivos generales del sistema que se pretende construir.
 
 **Actividades clave:**  
-- Identificación de las necesidades del cliente y las metas principales que el sistema debe cumplir.  
-- Delimitación de los requisitos de alto nivel, incluyendo aspectos operativos y funcionales.  
+</br>» Identificación de las necesidades del cliente y las metas principales que el sistema debe cumplir.</br>» Delimitación de los requisitos de alto nivel, incluyendo aspectos operativos y funcionales.  
 
 ## 3.2.2. Requerimientos de Software (Software Requirements)
 
@@ -107,8 +106,7 @@ Establecer el alcance global del proyecto y los objetivos generales del sistema 
 Traducir los requerimientos globales del sistema en especificaciones más detalladas y técnicas para el software.
 
 **Actividades clave:**  
-- Definición de las funcionalidades específicas que debe proporcionar el software.  
-- Detalle de restricciones técnicas y operativas, incluyendo desempeño, compatibilidad, seguridad, etc.  
+</br>» Definición de las funcionalidades específicas que debe proporcionar el software.</br>» Detalle de restricciones técnicas y operativas, incluyendo desempeño, compatibilidad, seguridad, etc.  
 
 ## 3.2.3. Análisis (Analysis)
 
@@ -116,8 +114,7 @@ Traducir los requerimientos globales del sistema en especificaciones más detall
 Comprender en profundidad el dominio del problema y estudiar en detalle cómo abordar las necesidades definidas en los requerimientos de software.
 
 **Actividades clave:**  
-- Identificación de estructuras de datos, flujos de información y lógicas de procesamiento.  
-- Evaluación de posibles soluciones, considerando las restricciones identificadas en las fases anteriores.  
+</br>» Identificación de estructuras de datos, flujos de información y lógicas de procesamiento.</br>» Evaluación de posibles soluciones, considerando las restricciones identificadas en las fases anteriores.  
 
 ## 3.2.4. Diseño del Programa (Program Design)
 
@@ -125,9 +122,7 @@ Comprender en profundidad el dominio del problema y estudiar en detalle cómo ab
 Definir la arquitectura del sistema, sus componentes internos y las interacciones entre ellos, antes de la implementación.
 
 **Actividades clave:**  
-- Estructuración de módulos y subsistemas, asignación de responsabilidades.  
-- Diseño de interfaces, bases de datos y procedimientos de entrada/salida.  
-- Planificación de recursos (almacenamiento, tiempo de ejecución, entre otros).  
+</br>» Estructuración de módulos y subsistemas, asignación de responsabilidades.</br>» Diseño de interfaces, bases de datos y procedimientos de entrada/salida.</br>» Planificación de recursos (almacenamiento, tiempo de ejecución, entre otros).  
 
 ## 3.2.5. Codificación (Coding)
 
@@ -135,9 +130,7 @@ Definir la arquitectura del sistema, sus componentes internos y las interaccione
 Implementar en software la solución diseñada, convirtiendo los requerimientos y diseños en un producto funcional.
 
 **Actividades clave:**  
-- Escritura y compilación de código siguiendo estándares de calidad.  
-- Integración de módulos y subsistemas.  
-- Revisión de código para asegurar consistencia y conformidad con el diseño.  
+</br>» Escritura y compilación de código siguiendo estándares de calidad.</br>» Integración de módulos y subsistemas.</br>» Revisión de código para asegurar consistencia y conformidad con el diseño.  
 
 ## 3.2.6. Pruebas (Testing)
 
@@ -145,9 +138,7 @@ Implementar en software la solución diseñada, convirtiendo los requerimientos 
 Verificar que el software cumpla con los requerimientos y que funcione correctamente en las condiciones previstas.
 
 **Actividades clave:**  
-- Ejecución de pruebas unitarias, de integración y de sistema.  
-- Validación de cada ruta lógica para detectar errores o inconsistencias.  
-- Análisis de desempeño y conformidad con las especificaciones iniciales.  
+</br>» Ejecución de pruebas unitarias, de integración y de sistema.</br>» Validación de cada ruta lógica para detectar errores o inconsistencias.</br>» Análisis de desempeño y conformidad con las especificaciones iniciales.  
 
 ## 3.2.7. Operaciones (Operations)
 
@@ -155,9 +146,7 @@ Verificar que el software cumpla con los requerimientos y que funcione correctam
 Desplegar el sistema en el entorno de producción y asegurar su funcionamiento continuo.
 
 **Actividades clave:**  
-- Puesta en marcha del software en la infraestructura del cliente.  
-- Capacitación a los usuarios finales y equipos de soporte.  
-- Monitoreo, mantenimiento y gestión de cambios posteriores a la entrega.  
+</br>» Puesta en marcha del software en la infraestructura del cliente.</br>» Capacitación a los usuarios finales y equipos de soporte.</br>» Monitoreo, mantenimiento y gestión de cambios posteriores a la entrega.  
 
 </ul>
 

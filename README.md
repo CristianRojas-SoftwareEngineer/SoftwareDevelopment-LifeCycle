@@ -3,9 +3,21 @@
 </div>
 </br>
 
+## Introducción
+
+# Índice del documento
+
+1. Propósito del proyecto.
+2. Contexto sobre el artículo original.
+3. Proceso de desarrollo de software presentado por el Dr. Royce.
+4. Propuestas de mejora para el proceso de desarrollo de software sugeridas por el Dr. Royce
+5. ¿Por qué el «modelo de proceso en cascada» es una interpretación incompleta?
+6. Mi análisis sobre el proceso de desarrollo de software presentado
+7. Conclusiones
+
 ## 1. Propósito del proyecto
 
-Este proyecto tiene como propósito contribuir a la preservación histórica de un artículo fundamental para la ingeniería de software, llamado «Managing the Development of Large Software Systems». Este artículo fue presentado por el Dr. Winston Walker Royce (1929 – 1995) en la conferencia IEEE WESCON, realizada en Agosto de 1970. En él se establecen las bases de uno de los primeros modelos del proceso de desarrollo de software, el cual, posteriormente sería interpretado —de forma incompleta— y definido como el modelo de proceso en cascada o «Waterfall».
+Este proyecto tiene como propósito contribuir a la preservación histórica de un artículo fundamental para la ingeniería de software, llamado «Managing the Development of Large Software Systems». Este artículo fue presentado por el Dr. Winston Walker Royce (1929 – 1995) en la conferencia IEEE WESCON, realizada en Agosto de 1970. En él se establecen las bases de uno de los primeros modelos del proceso de desarrollo de software, el cual, posteriormente sería interpretado —de forma incompleta— y definido como el «waterfall model», o «modelo de proceso en cascada» por su traducción al español.
 
 - **Preservación histórica:** Publicar y conservar tres versiones del artículo:
   - La versión original (1970)

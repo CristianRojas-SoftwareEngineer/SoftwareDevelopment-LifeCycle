@@ -68,7 +68,16 @@ El artículo original expone un modelo simplificado basado en dos pasos esencial
 
 ## 3.2. Proceso de desarrollo extendido
 
-A continuación se describen brevemente las fases del proceso de desarrollo secuencial tal como las presentó el Dr. Winston W. Royce en su artículo *Managing the Development of Large Software Systems* (1970). Cada fase se concibe como un paso lógico que prepara el terreno para la siguiente, aunque Royce advierte que un flujo estrictamente lineal puede conllevar riesgos significativos si no se introducen mecanismos de retroalimentación y control.
+En su artículo de 1970, el Dr. Royce describió un enfoque más estructurado para el desarrollo de software que el simple modelo de dos pasos de análisis y codificación. Este enfoque inicial se desglosaba en siete fases secuenciales para el desarrollo de grandes sistemas de software:
+1. Requerimientos del Sistema.
+2. Requerimientos de Software.
+3. Análisis.
+4. Diseño del Programa.
+5. Codificación.
+6. Pruebas.
+7. Operaciones.
+
+Es fundamental comprender que Royce presentó este modelo como un punto de partida para ilustrar la necesidad de definir un proceso de desarrollo integral, antes de discutir las mejoras y la naturaleza iterativa que consideraba esencial. A continuación se presenta una tabla en dónde se sintetizan el propósito y objetivos concretos de cada fase, considerando desde la definición y análisis de requerimientos en las fases iniciales, hasta la puesta en marcha, capacitación de usuarios, monitoreo y mantenimiento contínuo durante las fases finales del proceso de desarrollo y producción de sistemas de software de gran tamaño:
 
 | Fase | Nombre | Propósito | Objetivos |
 |------|--------|-----------|-------------|

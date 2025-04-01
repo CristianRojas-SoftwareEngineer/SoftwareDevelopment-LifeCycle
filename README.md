@@ -1,3 +1,10 @@
+
+<div align="center">
+  <h1>» Documento en construcción «</h1>
+</div>
+
+---
+
 <div align="center">
     <h2>«Gestión del desarrollo de sistemas de software de gran tamaño»</h2>
 </div>
@@ -217,3 +224,9 @@ Esperamos que este repositorio sirva de referencia tanto para historiadores de l
 ---
 
 *Este README puede ser adaptado y ampliado conforme surja nueva información o se deseen incorporar nuevos análisis y traducciones. ¡Bienvenido a «SoftwareDevelopment-Lifecycle»!*
+
+---
+
+<div align="center">
+  <h1>» Documento en construcción «</h1>
+</div>

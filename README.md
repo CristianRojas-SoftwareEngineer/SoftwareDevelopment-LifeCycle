@@ -11,11 +11,15 @@
 
 ## Introducción
 
+El artículo titulado como **«Managing the development of large software systems»** fue presentado por el Dr. Winston Walker Royce (1929 – 1995) en la convención WESCON (*Western Electronic Show and Convention*) realizada en Agosto de 1970, organizada por el IEEE (*Institute of Electrical and Electronics Engineers*). En este artículo, el Dr. Royce documentó y presentó uno de los primeros modelos de proceso de desarrollo de sistemas de software reconocidos en el campo de la ingeniería de software, el cual, posteriormente, sería interpretado —aunque de manera incompleta— y definido como el «*waterfall process model*», o «*modelo de proceso en cascada*» de acuerdo a su traducción al español.
+
+Este artículo es considerado fundamental para la ingeniería de software, ya que en él ...
+
 ---
 
 ## Propósito de este proyecto
 
-Este proyecto tiene como propósito contribuir a la preservación histórica de un artículo fundamental para la ingeniería de software, llamado «Managing the Development of Large Software Systems». Este artículo fue presentado por el Dr. Winston Walker Royce (1929 – 1995) en la conferencia IEEE WESCON, realizada en Agosto de 1970. En él se establecen las bases de uno de los primeros modelos del proceso de desarrollo de software, el cual, posteriormente sería interpretado —de forma incompleta— y definido como el «waterfall model», o «modelo de proceso en cascada» por su traducción al español.
+Este proyecto tiene como propósito contribuir a la preservación histórica de un artículo fundamental para la ingeniería de software, llamado «Managing the Development of Large Software Systems». Este artículo fue presentado por el Dr. Winston Walker Royce (1929 – 1995) en la conferencia IEEE WESCON, realizada en Agosto de 1970. En él se establecen las bases de uno de los primeros modelos del proceso de desarrollo de software, el cual, posteriormente sería interpretado —de forma incompleta— y definido como el «waterfall model», o «modelo de proceso en cascada» según su traducción al español.
 
 Este repositorio contiene tres versiones del artículo:
   - **Versión original (1970):**  

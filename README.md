@@ -1,6 +1,6 @@
 
 <div align="center">
-  <h1>» Documento en construcción «</h1>
+  <h1>» Artículo en construcción «</h1>
 </div>
 
 ---
@@ -9,17 +9,17 @@
     <h2>«Gestión del desarrollo de sistemas de software de gran tamaño»</h2>
 </div>
 
-## Introducción {#introducción}
+## Introducción
 
 ---
 
-## Propósito de este proyecto {#propósito-de-este-proyecto}
+## Propósito de este proyecto
 
 Este proyecto tiene como propósito contribuir a la preservación histórica de un artículo fundamental para la ingeniería de software, llamado «Managing the Development of Large Software Systems». Este artículo fue presentado por el Dr. Winston Walker Royce (1929 – 1995) en la conferencia IEEE WESCON, realizada en Agosto de 1970. En él se establecen las bases de uno de los primeros modelos del proceso de desarrollo de software, el cual, posteriormente sería interpretado —de forma incompleta— y definido como el «waterfall model», o «modelo de proceso en cascada» por su traducción al español.
 
 Este repositorio contiene tres versiones del artículo:
   - **Versión original (1970):**  
-    El documento escaneado tal como fue presentado en la IEEE WESCON.
+    El artículo escaneado tal como fue presentado en la IEEE WESCON.
   - **Versión digitalizada (inglés):**  
     Una versión digital que preserva el formato y el contenido original.
   - **Versión digitalizada traducida (español):**  
@@ -32,22 +32,22 @@ Este repositorio contiene tres versiones del artículo:
 
 ---
 
-## Índice del documento {#índice-del-documento}
+## Índice del artículo
 
-A continuación se presenta el índice del documento para facilitar la navegación por el mismo. El documento se encuentra estructurado de la siguiente manera:
+A continuación se presenta el índice del artículo para facilitar la navegación por el mismo. El artículo se encuentra estructurado de la siguiente manera:
 
-[**1. Contexto sobre el artículo original**](#contexto-sobre-el-artículo-original)
-[**2. Proceso de desarrollo de software presentado por el Dr. Royce**](#proceso-de-desarrollo-de-software-presentado)
-[**3. Propuestas de mejora para el proceso de desarrollo de software sugeridas por el Dr. Royce**](#propuestas-de-mejora-para-el-proceso-de-desarrollo-de-software-sugeridas)
-[**4. ¿Por qué el «modelo de proceso en cascada» es una interpretación incompleta?**](#el-modelo-de-proceso-en-cascada-es-una-interpretación-incompleta)
-[**5. Mi análisis sobre el proceso de desarrollo de software presentado**](#mi-análisis-sobre-el-proceso-de-desarrollo-de-software-presentado)
-[**6. Conclusiones**](#conclusiones)
+[**» 1. Contexto sobre el artículo original**](#1-contexto-sobre-el-artículo-original)</br>
+[**» 2. Proceso de desarrollo de software presentado por el Dr. Royce**](#2-proceso-de-desarrollo-de-software-presentado-por-el-dr-royce)</br>
+[**» 3. Propuestas de mejora para el proceso de desarrollo de software sugeridas por el Dr. Royce**](#3-propuestas-de-mejora-para-el-proceso-de-desarrollo-de-software-sugeridas-por-el-dr-royce)</br>
+[**» 4. ¿Por qué el «modelo de proceso en cascada» es una interpretación incompleta?**](#4-por-qué-el-modelo-de-proceso-en-cascada-es-una-interpretación-incompleta)</br>
+[**» 5. Mi análisis sobre el proceso de desarrollo de software presentado**](#5-mi-análisis-sobre-el-proceso-de-desarrollo-de-software-presentado)</br>
+[**» 6. Conclusiones**](#6-conclusiones)</br>
 
-Puedes navegar directamente a cada sección del documento presionando sobre su respectivo título.
+Puedes navegar directamente a cada sección del artículo presionando sobre su respectivo título.
 
 ---
 
-## 1. Contexto sobre el artículo original {#contexto-sobre-el-artículo-original}
+## 1. Contexto sobre el artículo original
 
 ## 1.1. El origen del artículo
 
@@ -67,7 +67,7 @@ El Dr. Royce no pretendía establecer un modelo definitivo de desarrollo de soft
 
 ---
 
-## 2. Proceso de desarrollo de software presentado por el Dr. Royce {#proceso-de-desarrollo-de-software-presentado}
+## 2. Proceso de desarrollo de software presentado por el Dr. Royce
 
 ## 2.1. Proceso de desarrollo simplificado
 
@@ -128,7 +128,7 @@ Estas fases se presentan de manera secuencial, pero el Dr. Royce enfatiza que, e
 
 ---
 
-## 3. Propuestas de mejora para el proceso de desarrollo de software sugeridas por el Dr. Royce {#propuestas-de-mejora-para-el-proceso-de-desarrollo-de-software-sugeridas}
+## 3. Propuestas de mejora para el proceso de desarrollo de software sugeridas por el Dr. Royce
 
 Para evitar los problemas inherentes a un proceso estrictamente lineal (donde errores o cambios se detectan muy tarde), Royce sugiere cinco estrategias o "pasos" que se deben incorporar al proceso de desarrollo:
 
@@ -175,7 +175,7 @@ Estas propuestas buscan transformar un proceso de desarrollo arriesgado en uno q
 
 ---
 
-## 4. ¿Por qué el «modelo de proceso en cascada» es una interpretación incompleta? {#el-modelo-de-proceso-en-cascada-es-una-interpretación-incompleta}
+## 4. ¿Por qué el «modelo de proceso en cascada» es una interpretación incompleta?
 
 [Interpretación errónea del modelo «Waterfall»]
 Aunque el análisis original del Dr. Royce contempla iteraciones y prototipado, con el tiempo se interpretó y simplificó su propuesta en un modelo secuencial rígido (el denominado «Waterfall»). Este malentendido ignoró:
@@ -186,7 +186,7 @@ Aunque el análisis original del Dr. Royce contempla iteraciones y prototipado, 
 
 ---
 
-## 5. Mi análisis sobre el proceso de desarrollo de software presentado {#mi-análisis-sobre-el-proceso-de-desarrollo-de-software-presentado}
+## 5. Mi análisis sobre el proceso de desarrollo de software presentado
 
 En el contexto actual, los avances en ingeniería de software y el surgimiento de metodologías ágiles permiten:
 
@@ -215,7 +215,7 @@ Existen dos visiones respecto al orden de las fases:
 
 ---
 
-## 6. Conclusiones {#conclusiones}
+## 6. Conclusiones
 
 Este proyecto busca honrar y reinterpretar el trabajo del Dr. Royce, demostrando que sus propuestas van más allá de un simple modelo secuencial. Su visión integradora y su enfoque en la mitigación de riesgos a través del prototipado y la iteración anticipada sentaron las bases para lo que hoy conocemos como metodologías ágiles. La evolución del desarrollo de software, tanto en teoría como en práctica, nos invita a fusionar lo mejor de ambos enfoques para lograr procesos más eficientes y adaptables en el contexto actual.
 
@@ -228,5 +228,5 @@ Esperamos que este repositorio sirva de referencia tanto para historiadores de l
 ---
 
 <div align="center">
-  <h1>» Documento en construcción «</h1>
+  <h1>» Artículo en construcción «</h1>
 </div>

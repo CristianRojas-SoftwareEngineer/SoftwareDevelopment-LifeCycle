@@ -11,7 +11,7 @@
 
 ## Introducción
 
-El artículo titulado como **«Managing the development of large software systems»** fue presentado por el Dr. Winston Walker Royce (1929 – 1995) en la convención WESCON (*Western Electronic Show and Convention*) realizada en Agosto de 1970, organizada por el IEEE (*Institute of Electrical and Electronics Engineers*). En este artículo, el Dr. Royce documentó y presentó uno de los primeros modelos de proceso de desarrollo de sistemas de software reconocidos en el campo de la ingeniería de software, el cual, posteriormente, sería interpretado —aunque de manera incompleta— y definido como el «*waterfall process model*», o «*modelo de proceso en cascada*» de acuerdo a su traducción al español.
+El artículo titulado como **«Managing the development of large software systems»** fue presentado por el Dr. Winston Walker Royce (1929 – 1995) en la convención WESCON (*Western Electronic Show and Convention*) realizada en Agosto de 1970, organizada por el IEEE (*Institute of Electrical and Electronics Engineers*). En este artículo, el Dr. Royce documentó y presentó uno de los primeros modelos de proceso de desarrollo de sistemas de software reconocidos en el campo de la ingeniería de software, el cual, posteriormente, sería interpretado y definido —aunque de manera incompleta— como el «*waterfall process model*», o «*modelo de proceso en cascada*» de acuerdo a su traducción al español.
 
 Este artículo es considerado fundamental para la ingeniería de software, ya que en él ...
 

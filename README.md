@@ -15,7 +15,9 @@ El artículo titulado **«Managing the development of large software systems»**
 
 Fue en este espacio donde el Dr. Royce documentó y presentó uno de los primeros modelos de proceso de desarrollo de sistemas de software reconocidos en el ámbito de la ingeniería de software, el cual, posteriormente, sería interpretado y definido —aunque de manera incompleta— como el «*waterfall process model*», o «*modelo de proceso en cascada*», de acuerdo con su traducción al español.
 
-Este artículo es considerado fundamental para la ingeniería de software, ya que en él ...
+Este artículo es considerado fundamental para la ingeniería de software, ya que en él se presentó un enfoque estructurado para la gestión del proceso de desarrollo de software en un momento en que la industria comenzaba a enfrentar dificultades para desarrollar sistemas cada vez más complejos. Además, dada su experiencia en la gestión y desarrollo de proyectos de ingeniería aeroespacial, el Dr. Royce no solo presentó uno de los primeros modelos de proceso de desarrollo de software, sino que también analizó los riesgos propios de realizar un proceso de desarrollo estrictamente secuencial.
+
+Adicionalmente, luego de reconocer los riesgos inherentes al proceso de desarrollo secuencial presentado, el Dr. Royce propuso cinco prácticas clave para mejorar la calidad del sistema y asegurar una mayor alineación entre las necesidades del usuario y las funcionalidades implementadas en el software. Algunas de estas prácticas establecieron las bases para el paradigma de desarrollo ágil de software, tales como el enfoque iterativo, el desarrollo basado en prototipos, la retroalimentación temprana y el involucramiento del usuario como parte fundamental del equipo de desarrollo.
 
 ---
 

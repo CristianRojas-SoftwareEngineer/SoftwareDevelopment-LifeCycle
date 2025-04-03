@@ -237,9 +237,9 @@ Esperamos que este repositorio sirva de referencia tanto para historiadores de l
 
 ## Acerca de este repositorio
 
-» Los documentos contenidos en este repositorio están sujetos a modificación en caso de detectarse errores en la redacción, digitalización o traducción del artículo  **«Managing the development of large software systems»**.
+- Los documentos contenidos en este repositorio están sujetos a modificación en caso de detectarse errores en la redacción, digitalización o traducción del artículo  **«Managing the development of large software systems»**.
 
-» Además, con el propósito de extender el alcance del artículo presentado por el Dr. Royce, este repositorio podría ser actualizado para incluir nuevas traducciones a otros idiomas.
+- Además, con el propósito de extender el alcance del artículo presentado por el Dr. Royce, este repositorio podría ser actualizado para incluir nuevas traducciones a otros idiomas.
 
 ---
 
@@ -256,7 +256,7 @@ Copyright © 2025 Cristian Rojas Arredondo
 
 Este proyecto se distribuye bajo los términos de la «Creative Commons Zero 1.0 Universal (CC0 1.0)», lo que significa que el autor renuncia a todos los derechos de autor y de propiedad intelectual en la medida permitida por la ley, dedicando el contenido al dominio público.
 
-## Libertades concedidas
+## Libertades otorgadas
 
 La licencia «Creative Commons Zero» permite a cualquier persona:
 

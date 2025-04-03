@@ -122,7 +122,7 @@ Es fundamental comprender que Royce presentó este modelo como un punto de parti
 | **6** | **Pruebas** | Verificar y validar que el software cumple con los requisitos y funciona correctamente en diversas condiciones. | <strong>»</strong> Ejecución de pruebas unitarias, de integración y de sistema.</br><strong>»</strong> Validación de cada ruta lógica para detectar errores o inconsistencias.</br><strong>»</strong> Análisis de desempeño y conformidad con las especificaciones iniciales. |
 | **7** | **Operaciones** | Desplegar y mantener el software en el entorno de producción para asegurar su funcionamiento continuo y satisfacer las necesidades del usuario. | <strong>»</strong> Puesta en marcha del software en la infraestructura del cliente.</br><strong>»</strong> Capacitación a los usuarios finales y equipos de soporte.</br><strong>»</strong> Monitoreo, mantenimiento y gestión de cambios posteriores a la entrega. |
 <div align="center">
-    <strong>Tabla: Fases del proceso de desarrollo extendido según el Dr. Royce<strong>
+    <strong>Tabla: Fases del proceso de desarrollo extendido según el Dr. Royce</strong>
 </div>
 </br>
 
@@ -225,13 +225,61 @@ Existen dos visiones respecto al orden de las fases:
 
 ## 6. Conclusiones
 
+El artículo **«Managing the development of large software systems»** presentado por el Dr. Royce en la 26ª edición de la convención WESCON realizada en agosto de 1970, es fundamental para la ingeniería de software, ya que en él se presentó uno de los primeros enfoques estructurados para la gestión del proceso de desarrollo de software, en un momento en que la industria comenzaba a enfrentar grandes dificultades para desarrollar sistemas cada vez más complejos.
+
+Además, es importante destacar que el aporte realizado por el Dr. Royce no se limita a la definición del «*modelo de proceso en cascada*» —atribuido erróneamente—, ya que algunas de las prácticas sugeridas por Royce establecieron las bases para el paradigma de desarrollo ágil de software, consolidado más de 30 años después de esta publicación, tras la creación del «Manifiesto Ágil» en el año 2001, definido y validado por 17 expertos en desarrollo de software de la época.
+
 Este proyecto busca honrar y reinterpretar el trabajo del Dr. Royce, demostrando que sus propuestas van más allá de un simple modelo secuencial. Su visión integradora y su enfoque en la mitigación de riesgos a través del prototipado y la iteración anticipada sentaron las bases para lo que hoy conocemos como metodologías ágiles. La evolución del desarrollo de software, tanto en teoría como en práctica, nos invita a fusionar lo mejor de ambos enfoques para lograr procesos más eficientes y adaptables en el contexto actual.
 
 Esperamos que este repositorio sirva de referencia tanto para historiadores de la ingeniería de software como para profesionales que buscan comprender la evolución de los procesos de desarrollo y las raíces de las prácticas ágiles actuales.
 
 ---
 
-*Este README puede ser adaptado y ampliado conforme surja nueva información o se deseen incorporar nuevos análisis y traducciones. ¡Bienvenido a «SoftwareDevelopment-Lifecycle»!*
+> ## Observaciones adicionales
+>
+> » Los documentos contenidos en este repositorio están sujetos a modificación en caso de detectarse errores en la redacción, digitalización o traducción del artículo  **«Managing the development of large software systems»**.
+> 
+> » Además, con el propósito de extender el alcance del artículo presentado por el Dr. Royce, este repositorio podría ser actualizado para incluir nuevas traducciones a otros idiomas.
+
+---
+
+## Autor
+
+**Cristian Rojas Arredondo**  
+Licenciado en Ingeniería Informática (2020)  
+Universidad de Valparaíso, Chile  
+Contacto: cristian.rojas.software.engineer@gmail.com
+
+## Licencia y distribución
+
+<ul>
+
+Copyright © 2025 Cristian Rojas Arredondo
+
+Este proyecto se distribuye bajo los términos de la «Creative Commons Zero 1.0 Universal (CC0 1.0)», lo que significa que el autor renuncia a todos los derechos de autor y de propiedad intelectual en la medida permitida por la ley, dedicando el contenido al dominio público.
+
+## Libertades concedidas
+
+La licencia «Creative Commons Zero» permite a cualquier persona:
+
+- **Copiar, modificar y redistribuir** el contenido sin restricciones, ya sea de forma gratuita o comercial.
+- **Utilizar el contenido** para cualquier propósito, sin necesidad de atribución obligatoria.
+- **Crear obras derivadas** basadas en este contenido sin limitación alguna.
+
+## Recomendaciones
+
+Bajo la licencia «Creative Commons Zero» no se imponen condiciones legales; sin embargo, se recomienda tener en cuenta lo siguiente:
+
+- **Reconocimiento:** Al distribuir el contenido de este repositorio o cualquier obra derivada de él, se sugiere mencionar que este repositorio es la fuente original, como muestra de cortesía. Además, esta mención ayudará tanto a la preservación histórica del artículo original como a la divulgación completa del análisis sobre el proceso de desarrollo de software presentado por el Dr. Royce en dicho artículo.
+- **Uso responsable:** Si bien cualquier persona puede utilizar el contenido de este repositorio para cualquier propósito, se insta a utilizar dicho contenido de forma responsable y ética, procurando que su uso contribuya positivamente a la comunidad académica y profesional.
+
+## Documentación legal
+
+La versión completa y legalmente vinculante de la licencia «Creative Commons Zero 1.0 Universal» se encuentra en el archivo [LICENSE](LICENSE) ubicado en la raíz del proyecto. Este documento contiene el texto oficial de la licencia, el cual es el único con validez legal.
+
+> *Nota: Al utilizar, modificar o redistribuir este contenido, se entiende que lo haces de acuerdo con los términos de la licencia. Se recomienda revisar el archivo LICENSE para comprender plenamente los derechos y condiciones aplicables.*
+ 
+</ul>
 
 ---
 

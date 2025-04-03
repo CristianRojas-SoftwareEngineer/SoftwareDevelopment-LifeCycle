@@ -235,11 +235,11 @@ Esperamos que este repositorio sirva de referencia tanto para historiadores de l
 
 ---
 
-> ## Observaciones adicionales
->
-> » Los documentos contenidos en este repositorio están sujetos a modificación en caso de detectarse errores en la redacción, digitalización o traducción del artículo  **«Managing the development of large software systems»**.
-> 
-> » Además, con el propósito de extender el alcance del artículo presentado por el Dr. Royce, este repositorio podría ser actualizado para incluir nuevas traducciones a otros idiomas.
+## Acerca de este repositorio
+
+» Los documentos contenidos en este repositorio están sujetos a modificación en caso de detectarse errores en la redacción, digitalización o traducción del artículo  **«Managing the development of large software systems»**.
+
+» Además, con el propósito de extender el alcance del artículo presentado por el Dr. Royce, este repositorio podría ser actualizado para incluir nuevas traducciones a otros idiomas.
 
 ---
 
@@ -251,8 +251,6 @@ Universidad de Valparaíso, Chile
 Contacto: cristian.rojas.software.engineer@gmail.com
 
 ## Licencia y distribución
-
-<ul>
 
 Copyright © 2025 Cristian Rojas Arredondo
 
@@ -277,9 +275,7 @@ Bajo la licencia «Creative Commons Zero» no se imponen condiciones legales; si
 
 La versión completa y legalmente vinculante de la licencia «Creative Commons Zero 1.0 Universal» se encuentra en el archivo [LICENSE](LICENSE) ubicado en la raíz del proyecto. Este documento contiene el texto oficial de la licencia, el cual es el único con validez legal.
 
-> *Nota: Al utilizar, modificar o redistribuir este contenido, se entiende que lo haces de acuerdo con los términos de la licencia. Se recomienda revisar el archivo LICENSE para comprender plenamente los derechos y condiciones aplicables.*
- 
-</ul>
+*Nota: Al utilizar, modificar o redistribuir este contenido, se entiende que lo haces de acuerdo con los términos de la licencia. Se recomienda revisar el archivo LICENSE para comprender plenamente los derechos y condiciones aplicables.*
 
 ---
 

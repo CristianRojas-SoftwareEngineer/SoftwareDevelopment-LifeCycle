@@ -6,18 +6,20 @@
 ---
 
 <div align="center">
-    <h2>«Gestión del desarrollo de sistemas de software de gran tamaño»</h2>
+    <h2>Rediseño del ciclo de vida del software a gran escala</h2>
 </div>
 
 ## Introducción
 
 El artículo titulado **«Managing the development of large software systems»** fue presentado por el Dr. Winston Walker Royce (1929 – 1995) en la 26ª edición de la convención WESCON (*Western Electronic Show and Convention*), realizada en agosto de 1970. Esta convención era organizada anualmente por el IEEE (*Institute of Electrical and Electronics Engineers*), con el propósito de ofrecer un espacio colaborativo para la presentación y discusión de avances tecnológicos y científicos en los campos de la electrónica y la ingeniería.
 
-Fue en este espacio donde el Dr. Royce documentó y presentó uno de los primeros modelos de proceso de desarrollo de sistemas de software reconocidos en el ámbito de la ingeniería de software, el cual, posteriormente, sería interpretado y definido —aunque de manera incompleta— como el «*waterfall process model*», o «*modelo de proceso en cascada*», de acuerdo con su traducción al español.
+Fue en este espacio donde el Dr. Royce presentó uno de los primeros modelos de proceso de desarrollo de sistemas de software reconocidos, y por lo tanto, fundamentales en el ámbito de la ingeniería de software, el cual, posteriormente, sería interpretado y definido —aunque de manera incompleta— como el «*waterfall process model*», o «*modelo de proceso en cascada*», de acuerdo con su traducción al español. Sin embargo, el artículo presentado no se limitó a describir un modelo de proceso de desarrollo estructurado en fases, sino que también presentó un análisis sobre los riesgos potenciales de implementar un proceso de desarrollo estrictamente secuencial.
 
-Este artículo es considerado fundamental para la ingeniería de software, ya que en él se presentó un enfoque estructurado para la gestión del proceso de desarrollo de software en un momento en que la industria comenzaba a enfrentar dificultades para desarrollar sistemas cada vez más complejos. Además, dada su experiencia en la gestión y desarrollo de proyectos de ingeniería aeroespacial, el Dr. Royce no solo presentó uno de los primeros modelos de proceso de desarrollo de software, sino que también analizó los riesgos propios de realizar un proceso de desarrollo estrictamente secuencial.
+Según Royce, aunque abordar el proceso de desarrollo de software siguiendo un enfoque secuencial es válido, "es arriesgado e invita al fracaso", ya que la validación del proyecto, que abarca tanto la definición y el análisis de los requerimientos como el diseño y la codificación del software, ocurre de forma tardía, durante la fase de pruebas, al final del ciclo de desarrollo. Esta retroalimentación tardía es riesgosa, ya que si durante la fase de pruebas se detecta que el software no cumple ya sea con los requerimientos funcionales o bien con las restricciones de integración con el entorno operativo, podría ser necesario modificar el diseño del software o incluso redefinir los requerimientos del mismo, lo que puede ocasionar retrasos significativos en la planificación del proyecto e incluso causar un sobrecosto de hasta el 100%, tanto en plazos como en inversión económica.
 
-Adicionalmente, luego de reconocer los riesgos inherentes al proceso de desarrollo secuencial presentado, el Dr. Royce propuso cinco prácticas clave para mejorar la calidad del sistema y asegurar una mayor alineación entre las necesidades del usuario y las funcionalidades implementadas en el software. Algunas de estas prácticas establecieron las bases para el paradigma de desarrollo ágil de software, tales como el enfoque iterativo, el desarrollo basado en prototipos, la retroalimentación temprana y el involucramiento del usuario como parte fundamental del equipo de desarrollo.
+Finalmente, luego de analizar el modelo de proceso de desarrollo de software presentado, y tras reconocer los riesgos inherentes al proceso de desarrollo secuencial, el Dr. Royce propuso cinco prácticas clave para refinar el proceso de desarrollo de software, mejorar la calidad del software producido y asegurar una mayor alineación entre las necesidades de los usuarios y las funcionalidades implementadas en el sistema desarrollado.
+
+Algunas de estas prácticas establecieron las bases para el paradigma ágil de desarrollo de software, tales como el enfoque iterativo, el desarrollo basado en prototipos, la retroalimentación temprana y el involucramiento del cliente como parte fundamental del equipo de desarrollo.
 
 ---
 
@@ -44,18 +46,23 @@ Este repositorio contiene tres versiones del artículo:
 
 A continuación se presenta el índice del artículo para facilitar la navegación por el mismo. El artículo se encuentra estructurado de la siguiente manera:
 
-[**» 1. Contexto sobre el artículo original**](#1-contexto-sobre-el-artículo-original)</br>
+[**» 1. Contexto histórico del artículo original**](#1-contexto-sobre-el-artículo-original)</br>
 [**» 2. Proceso de desarrollo de software presentado por el Dr. Royce**](#2-proceso-de-desarrollo-de-software-presentado-por-el-dr-royce)</br>
-[**» 3. Propuestas de mejora para el proceso de desarrollo de software sugeridas por el Dr. Royce**](#3-propuestas-de-mejora-para-el-proceso-de-desarrollo-de-software-sugeridas-por-el-dr-royce)</br>
-[**» 4. ¿Por qué el «modelo de proceso en cascada» es una interpretación incompleta?**](#4-por-qué-el-modelo-de-proceso-en-cascada-es-una-interpretación-incompleta)</br>
-[**» 5. Mi análisis sobre el proceso de desarrollo de software presentado**](#5-mi-análisis-sobre-el-proceso-de-desarrollo-de-software-presentado)</br>
-[**» 6. Conclusiones**](#6-conclusiones)</br>
+[**» 3. Mejoras propuestas por el Dr. Royce**](#3-propuestas-de-mejora-para-el-proceso-de-desarrollo-de-software-sugeridas-por-el-dr-royce)</br>
+[**» 4. ¿Por qué el «modelo en cascada» del ciclo de vida del software es una interpretación incompleta?**](#4-por-qué-el-modelo-de-proceso-en-cascada-es-una-interpretación-incompleta)</br>
+[**» 5. Mi interpretación del artículo original**](#5-mi-análisis-sobre-el-proceso-de-desarrollo-de-software-presentado)</br>
+[**» 6. Mi propuesta de modelo de ciclo de vida del software**](#6-conclusiones)</br>
+[**» 7. Conclusiones**](#6-conclusiones)</br>
 
 Puedes navegar directamente a cada sección del artículo presionando sobre su respectivo título.
 
 ---
 
 ## 1. Contexto sobre el artículo original
+
+dada su experiencia en la gestión y desarrollo de proyectos de ingeniería aeroespacial, el Dr. Royce
+
+reducir el riesgo de necesitar aplicar modificaciones disruptivas en fases avanzadas del proceso de desarrollo
 
 ## 1.1. El origen del artículo
 
@@ -194,7 +201,7 @@ Aunque el análisis original del Dr. Royce contempla iteraciones y prototipado, 
 
 ---
 
-## 5. Mi análisis sobre el proceso de desarrollo de software presentado
+## 5. Mi interpretación del modelo de proceso de desarrollo de software presentado
 
 En el contexto actual, los avances en ingeniería de software y el surgimiento de metodologías ágiles permiten:
 
@@ -223,11 +230,42 @@ Existen dos visiones respecto al orden de las fases:
 
 ---
 
-## 6. Conclusiones
+## 6. Mi propuesta de modelo de ciclo de vida del software
+
+En el contexto actual, los avances en ingeniería de software y el surgimiento de metodologías ágiles permiten:
+
+- **Un análisis de requerimientos más robusto:**  
+  La madurez tecnológica y la disponibilidad de recursos facilitan la recopilación y el análisis exhaustivo de requerimientos, reduciendo la variabilidad entre fases.
+
+- **Iteración constante:**  
+  Aunque el análisis inicial puede ser más completo, la validación y el ajuste mediante prototipos siguen siendo fundamentales para adaptarse a cambios o nuevos requerimientos durante el desarrollo.
+
+- **Fusión de enfoques:**  
+  La tendencia actual es integrar lo mejor de ambos mundos: un análisis profundo que establezca una base sólida y un prototipado iterativo que permita validar y ajustar el diseño en tiempo real.
+
+> *Esta visión actualizada permite no solo reconocer la relevancia histórica del Dr. Royce, sino también reinterpretar sus propuestas en un marco moderno, donde se revalorizan tanto la precisión del análisis como la flexibilidad y adaptabilidad del prototipado.*
+
+Existen dos visiones respecto al orden de las fases:
+
+- **Enfoque del Dr. Royce:**
+  - Iniciar con un prototipado temprano «en el vacío relativo de requisitos iniciales».
+  - Permitir que el diseñador establezca restricciones operativas («almacenamiento», «tiempo», «procesamiento») que luego guíen el análisis.
+
+- **Enfoque alternativo (actual):**
+  - Realizar un análisis completo de requerimientos antes de proceder con el prototipado.
+  - Posteriormente, utilizar el prototipo para validar y ajustar los requerimientos ya definidos.
+
+> *Si bien en 1970 las limitaciones técnicas justificaban el enfoque de Royce, en 2025, con recursos computacionales prácticamente ilimitados, resulta factible y, en teoría, más eficiente comenzar con un análisis detallado que minimice la incertidumbre inicial. No obstante, la necesidad de iterar y validar mediante prototipos continúa siendo relevante, por lo que la integración de ambos enfoques —un análisis exhaustivo seguido de un prototipado iterativo— puede representar la mejor práctica actual.*
+
+---
+
+## 7. Conclusiones
 
 El artículo **«Managing the development of large software systems»** presentado por el Dr. Royce en la 26ª edición de la convención WESCON realizada en agosto de 1970, es fundamental para la ingeniería de software, ya que en él se presentó uno de los primeros enfoques estructurados para la gestión del proceso de desarrollo de software, en un momento en que la industria comenzaba a enfrentar grandes dificultades para desarrollar sistemas cada vez más complejos.
 
 Además, es importante destacar que el aporte realizado por el Dr. Royce no se limita a la definición del «*modelo de proceso en cascada*» —atribuido erróneamente—, ya que algunas de las prácticas sugeridas por Royce establecieron las bases para el paradigma de desarrollo ágil de software, consolidado más de 30 años después de esta publicación, tras la creación del «Manifiesto Ágil» en el año 2001, definido y validado por 17 expertos en desarrollo de software de la época.
+
+Es importante destacar la profunda comprensión sobre el proceso de desarrollo de software demostrada por el Dr. Royce,
 
 Este proyecto busca honrar y reinterpretar el trabajo del Dr. Royce, demostrando que sus propuestas van más allá de un simple modelo secuencial. Su visión integradora y su enfoque en la mitigación de riesgos a través del prototipado y la iteración anticipada sentaron las bases para lo que hoy conocemos como metodologías ágiles. La evolución del desarrollo de software, tanto en teoría como en práctica, nos invita a fusionar lo mejor de ambos enfoques para lograr procesos más eficientes y adaptables en el contexto actual.
 
@@ -246,8 +284,7 @@ Esperamos que este repositorio sirva de referencia tanto para historiadores de l
 ## Autor
 
 **Cristian Rojas Arredondo**  
-Licenciado en Ingeniería Informática (2020)  
-Universidad de Valparaíso, Chile  
+Ingeniero de Software | Licenciado en Ingeniería Informática, Universidad de Valparaíso, Chile
 Contacto: cristian.rojas.software.engineer@gmail.com
 
 ## Licencia y distribución
